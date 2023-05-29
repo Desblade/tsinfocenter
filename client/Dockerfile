@@ -3,7 +3,7 @@ FROM node:19 as build
 WORKDIR /usr/src/app
 
 COPY package.json ./
-RUN NPM i
+RUN npm i
 
 COPY . .
 RUN npm run build
