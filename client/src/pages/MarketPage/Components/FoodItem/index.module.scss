@@ -1,0 +1,24 @@
+.card {
+	display: flex;
+	min-width: 30%;
+	height: 60%;
+	flex-direction: column;
+
+	.cardContent {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.cardActions {
+		display: flex;
+		align-items: flex-end;
+		height: 100%;
+	}
+
+	.box {
+		display: flex;
+		gap: 5%;
+		align-items: center;
+	}
+}
